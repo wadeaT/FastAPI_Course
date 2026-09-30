@@ -14,7 +14,7 @@ Why we need it: It automatically checks your PostgreSQL database
 
 
 
-models.Base.metadata.create_all(bind=engine) # if we want to reliy on alembic we can comment this line 
+#models.Base.metadata.create_all(bind=engine) # if we want to reliy on alembic we can comment this line 
 
 app = FastAPI()
 
